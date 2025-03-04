@@ -1,0 +1,629 @@
+.table td, .table th {
+    padding: 2px;
+}
+
+.closed-ticket .fc-title {
+    text-decoration: none !important;
+    background: linear-gradient(#f9010100 50%, #ff0000 61%, #ff0e0e 69%, #fa000000 0%);
+    padding: 0px 0;
+    display: inline;
+}
+
+.modal-header {
+    padding: 0rem;
+}
+
+.modal-header .close {
+    padding: 1rem;
+    margin: -1rem 0rem -1rem auto;
+}
+
+input#ticketSearch {
+    float: right;
+    border-radius: 15px;
+    border: 2px solid #dee2e6;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.panel-body {
+    text-align: center;
+}
+
+.hidden {
+    display: none !important;
+}
+/*Ancho de los modales*/
+.modal-lg {
+    max-width: 90%!important;
+}
+
+.modal-lg-2{
+    width: 60%;
+
+}
+
+.list-group {
+
+    display: inline;
+   
+}
+/*Estilos para badges (encabezados) de cada quien*/
+
+.badge {
+    font-size: 13px;
+    background-color: #404040;
+    border-radius: 5px;
+    color: white;
+}
+
+/**/
+.badge-Ing {
+    background-color: #ff7200;
+}
+/*Encabezado del Inge LEO*/
+.badge-Leo {
+    background-color:#231F20 ;
+}
+.badge-Leo .user-asigned{
+    color: #FFF;
+}
+
+/*Encabezado de Alfonso*/
+.badge-Alf {
+    background-color: #8FAAC1;
+}
+/*Encabezado de Alan*/
+.badge-Aln {
+    background-color: #1B75BC;
+    color: #FFF;
+
+}
+/*Encabezado de Service Group*/
+.badge-Sg {
+    background-color:#A8A79B;
+}
+
+.badge-Gab {
+    background-color:#D987DD;
+    color: #FFF;
+}
+/*No asignadas del botón superior*/
+.badge-NA{
+    background-color:#ED1C24;
+    color: #FFF;
+}
+
+
+/*Fin stilos para badges de cada quien*/
+/*Estilos background*/
+
+/*Ingeniero Leo*/
+.list-group-item-Leo{
+    
+    background-color:#231F20 ;
+    color:#FFF;
+}
+.list-group-item-Leo a{
+    color: #FFF;
+}
+
+
+/**/
+.list-group-item-Desa2{
+    background-color: #2CA4B7;
+    color:#FFF;
+}
+.list-group-item-Desa2 a{
+    color: #FFF;
+}
+/*Alan*/
+.list-group-item-Ing2{
+    background-color: #1B75BC;
+    color:#FFF;
+}
+.list-group-item-Ing2 a{
+    color: #FFF;
+}
+/*Service Group*/
+.list-group-item-Sg{
+    background-color:#A8A79B;/*#b94a48;*/
+}
+.list-group-item-Sg a{
+    background-color:#A8A79B;/*#b94a48;*/
+}
+
+/*Alfonso*/
+.list-group-item-Alf{
+    background-color: #8FAAC1;
+    color:#FFF;
+}
+.list-group-item-Alf a{
+    color: #FFF;
+}
+/*Fin estilos background*/
+.table th {
+	text-align: center;
+}
+
+input[name=query-submit]{
+	margin-top: 25px;
+}
+
+.form-button {
+    margin-top: 25px;
+}
+
+input[name=clean-submit] {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#title-filtro {
+	margin-bottom: 30px;
+}
+
+.tabla-consulta {
+	margin-top: 20px;
+}
+
+.lista-asignedTickets {
+	margin-top: 20px;
+}
+
+.nom-day {
+	font-weight: bold;
+}
+
+.line-T {
+	text-decoration: line-through;
+}
+
+.logo img{
+    width: 170px;
+    margin-top: -27px;
+}
+
+.navbar {
+    height: 65px;
+    padding-top: 15px
+}
+
+.fa {
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.move-item {
+    cursor: move;
+}
+
+/*List Group Horizontal-------------------*/
+.list-group-horizontal {
+    /*text-align: center;*/
+    margin-left: 5px;
+}
+
+.list-group-horizontal .list-group-item {
+    display: inline-block;
+    width: 210px;
+}
+.list-group-horizontal .list-group-item {
+	margin-bottom: 0;
+	margin-left:-4px;
+	margin-right: 0;
+    margin-top: 23px;
+}
+.list-group-horizontal .list-group-item:first-child {
+	border-top-right-radius:0;
+	border-bottom-left-radius:4px;
+}
+.list-group-horizontal .list-group-item:last-child {
+	border-top-right-radius:4px;
+	border-bottom-left-radius:0;
+}
+/*List Group Horizontal-------------------*/
+
+.btns-week {
+    margin-left: 10%;
+    /*float: right;*/
+    margin-top: 25px;
+    /*display: none;*/
+}
+
+.badge-Leonardo {
+    background-color: #717171;
+}
+
+.badge-Alfonso {
+    background-color: #717171;
+}
+
+.badge-Hector {
+    background-color: #717171;/*#b94a48;*/
+}
+
+.badge-Emmanuel {
+    background-color: #717171;/*#b94a48;*/
+}
+
+.tec-1,
+.table-striped > tbody > tr.tec-1 {
+    background-color: #717171;
+    color: #262626;
+    border: 1px solid #000000;
+}
+
+.tec-2,
+.table-striped > tbody > tr.tec-2 {
+    background-color: #58a959;
+    color: #262626;
+    border-color: #2c552d;
+}
+
+.tec-3,
+.table-striped > tbody > tr.tec-3 {
+    background-color: #ac89c2;
+    color: #262626;
+    border-color: #442b54;
+}
+
+.tec-4,
+.table-striped > tbody > tr.tec-4 {
+    background-color: #54a0c6;
+    color: #262626;
+    border-color: #275a74;
+}
+
+.tec-5,
+.table-striped > tbody > tr.tec-5 {
+    background-color: #f9b169;
+    color: #c16508;
+    border-color: #c16508;
+}
+
+.tec-6,
+.table-striped > tbody > tr.tec-6 {
+    background-color: #40e0d0;
+    color: #13746b;
+    border-color: #13746b;
+}
+
+.tec-p,
+.table-striped > tbody > tr.tec-p {
+    background-color: #fbdf7b;
+    color: #262626;
+    border-color: #a58205;
+}
+
+.fc-event-container a.ticket-c,
+.table-striped > tbody > tr.ticket-c {
+    /*background-color: #a0e0ca;
+    color: #2c8868;
+    border-color: #2c8868;*/
+    text-decoration: line-through;
+}
+
+.redText {
+    color: #ff0000;
+}
+
+.progress-bar-hours {
+    background-color: #777;
+}
+
+.btn-asignFact {
+    /*margin-top: 2px;
+    margin-left: 5px;*/
+    background-color: red;
+}
+
+.label {
+    font-size: 95%;
+    padding: 0.2em .6em .2em;
+    margin: 0 5px 0 5px;
+}
+
+.label .badge {
+    margin-left: 12px;
+    margin-right: -5px;
+    margin-top: -3px;
+    background-color: #5f5f5f;
+}
+
+.asignedBill {
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+.fa-check,
+.fa-times {
+    cursor: default;
+    color: #df9929;
+}
+
+.progress {
+    margin-bottom: 15px;
+}
+
+.lista-asignedTickets {
+    margin-top: 25px;
+}
+
+.horarioA {
+    font-weight: 600;
+}
+
+#btn-search {
+    margin-left: 15px;
+    margin-top: 24px;
+}
+
+.ui-autocomplete {
+    z-index: 5000;
+}
+
+.pending-fa {
+    float: right;
+    font-size: 17px;
+    margin-right: 5px;
+    color: #31698a;
+    cursor: auto;
+}
+
+.header-label {
+    cursor: pointer;
+}
+
+.pending-type {
+    /*margin-left: 35%;*/
+    margin-top: 25px;
+}
+
+.pendings-table {
+    margin-top: 30px;
+}
+
+.op-type {
+    margin-bottom: 10px;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.btn-fRight {
+    float: right;
+}
+
+#lista-horas .userHours {
+    cursor: pointer;
+}
+
+.ticketRefer {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#btn-pendingDate {
+    margin-top: 24px;
+}
+
+.dateBreaker {
+    background-color: #337ab7;
+    color: #fff;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+    padding: 5px 2px 2px 2px;
+}
+
+.dateBreaker i {
+    cursor: default;
+}
+
+.delay {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border-top: 5px solid #428bca;
+    border-right: 5px solid #f3f3f3;
+    border-bottom: 5px solid #f3f3f3;
+}
+
+.infoTicket {
+}
+/*
+.delayLabel {
+    height: 7px;
+    margin: 7px 3px 3px 0;
+    padding: 0;
+    width: 42px;
+    line-height: 75pt;
+    background-color: #d9534f;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+*/
+
+.delayLabel {
+    font-size: 88%;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+.sTypeLabel {
+    font-size: 75%;
+    float: right;
+    margin-right: 0px;
+    margin-top: 5px;
+    background-color: #3E4551;
+    color: white;
+}
+
+.sTypeLabelS {
+    font-size: 85%;
+    float: right;
+    margin-right: 0px;
+    margin-top: 5px;
+    background-color: #F7CB26;
+    color: #000;
+    font-weight: bold;
+}
+
+.delaySpan {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.lista-asignedTickets .list-group-item-success {
+    background-color: #c1e2b4;
+    color: rgb(6 21 0);
+}
+
+/*Esposa del Inge : Gaby */
+.lista-asignedTickets .list-group-item-info {
+    background-color:#D987DD;
+    color: #FFF;
+}
+
+
+
+/*No asignados*/
+.lista-asignedTickets .list-group-item-warning {
+    background-color: #f8ecb5;
+}
+
+.lista-asignedTickets .list-group-item-danger {
+    background-color:#ED1C24;
+    color: #FFF;
+}
+
+/*--Estilos para resaltar tickets en sitio--*/
+.colorAlertS {
+    animation:myfirst 1s;
+    -moz-animation:myfirst 1s infinite; /* Firefox */
+    -webkit-animation:myfirst 1s infinite; /* Safari and Chrome */
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {background:#f8b96d;}
+50%  {background:#ffc492;}
+100%   {background:#f8b96d;}
+}
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {background:#f8b96d;}
+50%  {background:#ffc492;}
+100%   {background:#f8b96d;}
+}
+/*Estilos para resaltar tickets en sitio*/
+
+/*--Estilos para resaltar tickets no autorizados--*/
+.textAut {
+    color: #34495e;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.noAutAnimation {
+    animation: noAut 1.8s;
+    -moz-animation: noAut 1.8s infinite; /* Firefox */
+    -webkit-animation: noAut 1.8s infinite; /* Safari and Chrome */
+}
+
+@-moz-keyframes noAut /* Firefox */
+{
+0%   {background:#ff6767;}
+50%  {background:#ffb4b4;}
+100%   {background:#ff6767;}
+}
+
+@-webkit-keyframes noAut /* Safari and Chrome */
+{
+0%   {background:#ff6767;}
+50%  {background:#ffb4b4;}
+100%   {background:#ff6767;}
+}
+/*Estilos para resaltar tickets no autorizados*/
+
+#totals {
+    margin-bottom: 50px;
+}
+
+.tbody-factsAsign {
+    display: none;
+}
+
+.ticket-pdf {
+    /*margin-left: 30px;*/
+    float: right;
+    font-size: 115%;
+}
+/*
+.watermark {
+    opacity: 0.5;
+    z-index: 99;
+}
+*/
+
+#label-unasignBills{
+    background-color: #ED1C24;
+    color: #fff;
+}
+
+#label-unpaidBills{
+    background-color: #F7941D;
+    color: #fff;   
+}
+
+#label-ticketsRev{
+    background-color: #69E9F7;
+    color: rgb(0, 0, 0);   
+}
+
+#label-ticketsFecha{
+    background-color: #A7A9AC;
+    color: rgb(0, 0, 0);   
+}
+
+
+
+
+
+.chart-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Ajusta la altura según sea necesario */
+    margin-bottom: 50px; /* Espacio para las etiquetas */
+}
+
+.chart-labels {
+    position: absolute;
+    bottom: -40px; /* Ajusta la posición vertical de las etiquetas */
+    right: 0; /* Alinea las etiquetas a la derecha */
+    text-align: right;
+    font-size: 14px;
+}
+
+.chart-labels div {
+    margin-bottom: 5px; /* Espacio entre etiquetas */
+}
+
+.chart-labels span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 50%; /* Para que sea un círculo */
+}

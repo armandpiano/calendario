@@ -1,0 +1,7 @@
+# Ignorar la carpeta assets/img
+assets/img/
+
+# Otros archivos o carpetas a ignorar
+node_modules/
+.env
+*.log
